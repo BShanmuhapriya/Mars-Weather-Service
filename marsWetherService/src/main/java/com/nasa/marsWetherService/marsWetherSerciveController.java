@@ -11,6 +11,7 @@ public class marsWetherSerciveController {
 	@GetMapping("/weather")
 	public String getMarsWeather() {
 		return marsWetherService.getWeather();
+		
 	}
 	
 }
